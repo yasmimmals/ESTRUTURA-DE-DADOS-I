@@ -53,3 +53,17 @@ class FormaGeometrica{
     }
 
 }
+
+let forma1 = new FormaGeometrica() 
+let forma2 = new FormaGeometrica()//aqui estou instanciando a classe, ou seja, criando um objeto a partir da classe
+forma1.altura = 7
+forma1.base = 12
+forma1.tipo = "T"
+
+console.log(`Área de um triângulo de 7x12: ${forma1.calcArea()}`)
+
+forma2.base =  7.5
+forma2.altura = 12.3
+forma2.tipo = "E"
+
+console.log(`Área de um elipse de 7.5x12.3: ${forma2.calcArea()}`)

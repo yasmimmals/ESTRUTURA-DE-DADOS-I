@@ -4,3 +4,11 @@ Quando eu gero um obj aleatório consigo manipular os dados, mas quando é inst�
 pois posso gerar vários objetos a partir de uma classe
 Classe == pensa em uma forma de pudim, que se eu quiser fazer um bolo de chocolate, morango, abacaxi e tbm fazer o pudim de qqrl sabor, e todos sai no mesmo formato, a classe é o modelo, a forma, os objetos são os bolos que sairam do modelo forma, com atributos diferentes(sabor, ingrediente, cor)
 mjs = o m significa module
+PILHA
+é a estrutura mais simples e a mais utilizada, o nome já diz "empilhar algo", pensa em uma pilha de prato: ninguém pega o primeiro de baixo, normalmente é o de cima, ou seja, de cima para baixo
+o ultimo que entrou é o primeiro a sair, se não for assim, já deixou de ser a estrutura pilha
+pensa como uma lista lenar(vetor) que permite inserções apenas no final e remoções também no final.
+inseri um dado ele coloca na posição 0, inseri outro vai pra posição 1, e assim por diante, quando eu quero remover ou visualizar um dado da pilha é apenas o ultimo 
+com isso temos o comportamente LIFO - Last in, First Out (último a entrar, primeiro a sair)
+Onde mais posso usar a pilha: word, torre de hanoi, programa para saber se uma palavra é palindroma
+
