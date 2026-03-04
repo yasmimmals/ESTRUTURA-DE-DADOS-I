@@ -1,4 +1,4 @@
-import Stack from "./Stack.mjs";
+import Stack from "../Stack.mjs";
 // fazendo inversão de dados
 let frase = "Socorram-me, subi no ônibus em Marrocos"
 

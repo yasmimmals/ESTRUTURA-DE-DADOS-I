@@ -1,4 +1,4 @@
-import Stack from './Stack.mjs'
+import Stack from './lib/Stack.mjs'
 
 let pilha = new Stack() // instanciei a pilha
 
