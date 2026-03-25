@@ -1,0 +1,3 @@
+É uma estrutura de dados formads por uniddes de informação chamadas nodos ou nós.
+cada nodo dessa lista tem três partes: uma que armazena a informação; a segunda que guarda a endereço do nodo anterior e a terceira que guarda o endereço para o nodo seguinte da sequência.
+a qqrl momento, temos um conhecimento apenas limitado de onde se encontram todos os nodos da lista, sabendo apenas onde está o priemiro e o último nodo da sequênciaos nodos intermediários precisam ser encontrados partindo do primeiro ou do ultimo nodo
