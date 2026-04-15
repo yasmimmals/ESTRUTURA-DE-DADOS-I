@@ -1,0 +1,30 @@
+Dentro da Estrutura de dados temos os algoritmos de armazenamento, 
+e essa manipulação tem um custo computacional, mas temos diversos tipos de algoritmos que tbm manipualm essas estruturas
+O que é complexidade de algoritmos? Nem sempre o que é complexo é dificil
+ele vai medir o tempo de execução, o quanto está sendo consumido de memória, etcc...
+para ver se compensa ou não ser usado
+compensa usar uma pilha? uma ordenação? precisamos ver o custo diversos
+na complexidade temos dois tipos principais:
+- complexidade de tempo (time complexity): mede o número de operações
+- complexidade de espaçõ(space complexity): mede o uso de memória
+para medirmos isso temos a notação BIG O, ela nos ajuda com essa complexidade
+a nossa preocupação deve ser tentar deixar o software mais rápido e menos memória consumir
+a busca sequencial é O de n 
+o quanto esse algoritmo é bom ? ele é bom o suficiente para rodar com pouco e com o muito?
+qual o melhor código para a sua aplicação? 
+Big-O: É uma ferramenta usada para medir a eficiência de algoritmo. Ele nos ajuda a entender a complexidade de cada código
+pensa assim: se um programa roda rápido para 10 dados, ele continuará rápido para 1 milhão? O Big-O nos dá uma forma de responder essa pergunta
+A melhor complexidade é O(1)
+pq o BIG O é importante?
+imagine que vc está construindo um aplicativo que precisa buscat informções em uma lista enorme. Se seu código não for eficiente, 
+pode funcionar bem em testes pequenos, mas travar quando for para a produção.
+O Big-O ajuda a prever problemas antes de ir para produção
+Notações (Big-O)
+
+O(1) - Constante - Acesso direto a vetor
+O(log n) - Logarítma - Busca Binária
+O(n) - Linear - Percorre um array
+O(n log n) - Linearítma - Quicksort, Mergesort
+o(n ao quadrado) Quadrática - Bubble Sort, Selection Sort
+O(2 elevado a n) - Exponencial - Problemas de combinação
+O(n!) Fatorial - Algoritmos de permutação
