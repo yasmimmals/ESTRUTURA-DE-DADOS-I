@@ -1,0 +1,8 @@
+O que é? É uma matriz na qual a maioria dos elementos são zeros ou nulos
+Por isso, ao invés de armazenar todos os elementos como em uma matriz convencional
+cada inteiro é 4bytes 
+não salvamos o 0, salvamos só o que é valor
+Pq usar?
+Economia de memória, redução no tempo de processamento para algumas operações, util em algebra linear, grafos, processamento de imagem e aprendizado de máquina
+A matriz é representada por uma lista de triplas (COO - Coordinate List)
+ela é representada como um conjunto de triplas, onde X é uma entrada na matriz e i e j denotam seus indices de linhas e colunas
